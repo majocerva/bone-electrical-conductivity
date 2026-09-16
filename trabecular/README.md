@@ -1,16 +1,9 @@
-# Trabecular Bone
+# Trabecular Bone Model
 
 This directory contains a representative computational model of trabecular bone used to study its effective electrical conductivity.
 
-The trabecular microstructure is inspired by real micro-computed tomography (μCT) images. The electrical response is obtained using the finite element method (FEM) at a frequency of 100 kHz.
+The trabecular microstructure is inspired by real micro-computed tomography (μCT) images. The model includes two material domains: bone matrix and bone marrow.
 
-## Model
+The electrical response is computed using the finite element method (FEM) at a frequency of 100 kHz.
 
-The `models/` directory contains a representative trabecular bone geometry used in the FEM simulations.
-
-The model consists of two material domains:
-
-- Bone matrix
-- Bone marrow
-
-The corresponding electrical properties and physical tags are defined in the simulation scripts available in the `scripts/` directory of the main repository.
+The mesh is provided in Gmsh (`.msh`) format. The corresponding FEM implementation is available in the `scripts/` directory of the main repository.
