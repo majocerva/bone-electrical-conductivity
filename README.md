@@ -1,30 +1,31 @@
-# bone-electrical-conductivity
+# Bone Electrical Conductivity
 
-# Conductividad eléctrica del tejido óseo
+This repository contains numerical models, data, and scripts developed to study the electrical properties of bone tissue using a multiscale modeling approach.
 
-Este repositorio contiene modelos numéricos, datos y scripts desarrollados para el estudio de las propiedades eléctricas del tejido óseo mediante un enfoque multiescala.
+The work is organized into three modeling levels: trabecular, cortical, and macroscale.
 
-El trabajo se organiza en tres niveles de modelado: trabecular, cortical y macroescala.
+## Trabecular Bone
 
-## Hueso trabecular
-Modelos computacionales de hueso trabecular con microestructuras inspiradas en imágenes reales de microtomografía computarizada (μCT). 
-La respuesta eléctrica se obtiene mediante el método de elementos finitos (FEM). Los resultados se complementan con un modelo de medio efectivo basado en la formulación de Bruggeman para analizar la relación entre la microestructura ósea y la conductividad eléctrica efectiva.
+Computational models of trabecular bone with microstructures inspired by real micro-computed tomography (μCT) images. The electrical response is obtained using the finite element method (FEM).
 
-## Hueso cortical
+The numerical results are complemented by an effective medium model based on the Bruggeman formulation to analyze the relationship between bone microstructure and effective electrical conductivity.
 
-Modelos computacionales de hueso cortical con microestructuras paramétricas que representan los principales componentes del sistema vascular óseo. La respuesta eléctrica se obtiene mediante el método de elementos finitos (FEM), permitiendo analizar la relación entre la microestructura, la porosidad y la conductividad eléctrica en las direcciones axial y transversal.
-os resultados se complementan con un modelo de medio efectivo basado en la formulación de Bruggeman para analizar la relación entre la porosidad y la conductividad eléctrica en las direcciones axial y transversal.
+## Cortical Bone
 
-## Macroescala
+Computational models of cortical bone with parametric geometries representing the main components of the bone vascular system. The electrical response is obtained using the finite element method (FEM), allowing the relationship between porosity and electrical conductivity in the axial and transverse directions to be investigated.
 
-Modelo computacional a macroescala de hueso que integra las propiedades eléctricas de los tejidos cortical, trabecular y medular. La respuesta eléctrica se obtiene mediante el método de elementos finitos (FEM), considerando diferentes condiciones del tejido.
+The numerical results are complemented by an effective medium model based on the Bruggeman formulation.
 
-## Estructura del repositorio
+## Macroscale
 
-- `trabecular/` – Modelos, datos y scripts correspondientes al hueso trabecular.
-- `cortical/` – Modelos, datos y scripts correspondientes al hueso cortical.
-- `macroscale/` – Modelos, datos y scripts correspondientes al modelo macroscópico.
+A macroscale computational bone model integrating the electrical properties of cortical bone, trabecular bone, and bone marrow. The electrical response is obtained using the finite element method (FEM), considering different tissue conditions.
 
-## Frecuencia
+## Repository Structure
 
-Los resultados eléctricos presentados corresponden a una frecuencia de **100 kHz**.
+- `trabecular/` – Models, data, and scripts related to trabecular bone.
+- `cortical/` – Models, data, and scripts related to cortical bone.
+- `macroscale/` – Models, data, and scripts related to the macroscale model.
+
+## Frequency
+
+The electrical results presented in this repository correspond to a frequency of **100 kHz**.
