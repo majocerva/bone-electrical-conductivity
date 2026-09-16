@@ -1,17 +1,16 @@
-
 # Trabecular Bone
 
-This directory contains the computational models, data, and scripts used to study the effective electrical conductivity of trabecular bone.
+This directory contains a representative computational model of trabecular bone used to study its effective electrical conductivity.
 
-## Computational Models
+The trabecular microstructure is inspired by real micro-computed tomography (μCT) images. The electrical response is obtained using the finite element method (FEM) at a frequency of 100 kHz.
 
-Trabecular bone geometries were generated with microstructures inspired by real micro-computed tomography (μCT) images.
+## Model
 
-The electrical response was computed using the finite element method (FEM) at **100 kHz**.
+The `models/` directory contains a representative trabecular bone geometry used in the FEM simulations.
 
-## Effective Medium Model
+The model consists of two material domains:
 
-An effective medium model based on the Bruggeman formulation was used to complement the FEM results and analyze the relationship between bone volume fraction (BV/TV) and effective electrical conductivity.
+- Bone matrix
+- Bone marrow
 
-## Contents
-
+The corresponding electrical properties and physical tags are defined in the simulation scripts available in the `scripts/` directory of the main repository.
