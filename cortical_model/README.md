@@ -28,7 +28,7 @@ The geometric parameters that can be modified by the user are grouped in the `US
 * Random seed used for the parametric geometry generation.
 * Sample name.
 
-The script calls the geometry and mesh generation functions defined in `cortical.py`. Therefore, `generate_mesh.py` and `cortical.py` must be located in the same directory.
+The script calls the geometry and mesh generation functions defined in `cortical.py`. Therefore, `generate_mesh.py` and `cortical_geometry.py` must be located in the same directory.
 
 To generate a new geometry and mesh:
 
