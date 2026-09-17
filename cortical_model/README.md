@@ -1,4 +1,4 @@
-# Cortical Bone FEM Model
+# Cortical Bone Model
 
 This directory contains a representative computational model of cortical bone, the code used to generate the parametric geometry and finite element mesh, and the code used to calculate its effective electrical conductivity.
 
