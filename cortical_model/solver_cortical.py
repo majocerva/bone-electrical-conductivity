@@ -51,13 +51,12 @@ Effective conductivity output   : mS/m
 
 Requirements
 ------------
-Python      : 3.10.20
-DOLFINx     : 0.7.3
-PETSc       : 3.20.6
-petsc4py    : 3.20.5
-mpi4py      : 3.1.6
+Python      : 3.12.3
+DOLFINx     : 0.9.0
+petsc4py    : 3.19.6
+mpi4py      : 3.1.5
 NumPy       : 1.26.4
-UFL         : 2023.2.0
+UFL         : 2024.2.0
 
 Authors
 -------
