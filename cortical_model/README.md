@@ -8,7 +8,7 @@ The geometry and mesh are generated using Gmsh, while the electrical response is
 
 ## Files
 
-* `cortical.py` – Original code containing the functions used to generate the parametric cortical bone geometry, calculate porosity, and generate the Gmsh mesh.
+* `cortical_geometry.py` – Original code containing the functions used to generate the parametric cortical bone geometry, calculate porosity, and generate the Gmsh mesh.
 * `generate_mesh.py` – User input script used to define the geometric parameters and generate a cortical bone geometry and mesh.
 * `solver_cortical.py` – Python code used to compute the effective electrical conductivity of cortical bone.
 * `.msh` file – Representative cubic cortical bone mesh in Gmsh format. The mesh geometry is defined in meters (m).
